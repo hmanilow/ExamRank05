@@ -10,7 +10,7 @@ public:
         _name = name;
         _effects = effects;    
     }
-    virtual ~ASpell() {} //для удаления объектов производных классов
+    virtual ~ASpell() {}
 
     std::string getName()
     {
